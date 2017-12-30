@@ -129,7 +129,6 @@ def createworksheets():
                 """
 
 
-
                 # new method
                 formatted_name = f'''{applicantlistbox.get(z).split(', ')[0]} {applicantlistbox.get(z).split(', ')[1][0]} {panellistbox.get(y).split(' ')[0][0]} {panellistbox.get(y).split(' ')[1][0]}'''
                 ws2 = wb.create_sheet(formatted_name)
